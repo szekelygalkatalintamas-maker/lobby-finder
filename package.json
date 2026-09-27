@@ -1,6 +1,6 @@
 {
     "name": "lobby-finder",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "private": true,
     "description": "A configurable Discord lobby board for gaming communities",
     "license": "MIT",
@@ -13,6 +13,8 @@
         "node": ">=24.17.0"
     },
     "scripts": {
+        "setup": "node scripts/setup.mjs",
+        "invite": "node scripts/invite.mjs",
         "build": "tsc -p tsconfig.json",
         "typecheck": "tsc -p tsconfig.json --noEmit",
         "check-config": "node --env-file-if-exists=.env dist/check-config.js",

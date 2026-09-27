@@ -54,9 +54,19 @@ Codes are supplied by hosts. Lobby-Finder does not create rooms inside a game or
 
 The bot uses buttons, forms and slash commands. It requests no privileged intents and does not read or delete ordinary chat messages. Board channels are created with member posting disabled so discussion stays in the threads. Review role overrides if your server already grants Send Messages to custom roles.
 
+## Own your own copy
+
+You can run an independent bot under **your own Discord application**, customize the source and keep your own server data. Download the independent-copy ZIP from [Releases](https://github.com/szekelygalkatalintamas-maker/lobby-finder/releases), or fork this repository. Follow the [own-copy guide](docs/OWN-COPY.md).
+
+The copy includes Windows setup/start shortcuts. `npm run setup` installs dependencies, builds the bot and checks your application's settings; `npm run invite` generates **your application's** invite link from your token. Never use the hosted bot's invite when setting up an independent copy.
+
 ## For the owner: run your own instance
 
 Use Node.js 24.17+ and npm. [discord.js installation guidance](https://discord.js.org/docs/packages/discord.js/14.27.0).
+
+For a guided setup, copy `.env.example` to `.env`, fill in your own token, then run `npm run setup` followed by `npm start`. Windows users can double-click `setup.cmd` and `start.cmd`. [Create your own Discord application first](docs/OWN-COPY.md).
+
+Or install manually:
 
 ```sh
 npm ci

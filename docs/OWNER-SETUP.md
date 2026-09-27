@@ -2,14 +2,16 @@
 
 Application: **Lobby-Finder** · ID: `1553733949329776730`
 
+This page describes the official hosted application. To run an independent copy, follow [Own your own copy](OWN-COPY.md) with your own application and token.
+
 ## Discord Developer Portal
 
 Open [this application's settings](https://discord.com/developers/applications/1553733949329776730).
 
 1. **Bot:** enable **Public Bot**. Leave **Requires OAuth2 Code Grant** off. Use this application's token in the host's `DISCORD_TOKEN` secret.
-2. **Installation:** enable **Guild Install**. Optionally enable **User Install** as well; `.env.example` assumes both are enabled.
+2. **Installation:** enable **Guild Install**. Optionally enable **User Install** as well; the template defaults to server installation only.
 3. For Guild Install, select **bot** and **applications.commands** scopes. Grant View Channels, Send Messages, Embed Links, Read Message History, Manage Channels, Create Public Threads, Send Messages in Threads and Manage Threads. The invite permission integer is `326417599504`.
-4. For User Install, select **applications.commands** only. `/lfg-help` supports personal contexts; setup and shared boards are server-only. Set `USER_INSTALL_ENABLED=false` if you leave User Install disabled.
+4. For User Install, select **applications.commands** only and set `USER_INSTALL_ENABLED=true`. `/lfg-help` supports personal contexts; setup and shared boards are server-only. Keep `USER_INSTALL_ENABLED=false` if you leave User Install disabled.
 5. Select a Discord Provided Link, or use the explicit server-invite link in the README when advertising the board.
 6. Leave **Interactions Endpoint URL** empty; the hosted process receives Gateway interactions. Keep all privileged intents off.
 

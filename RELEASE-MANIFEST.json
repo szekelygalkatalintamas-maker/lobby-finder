@@ -1,11 +1,11 @@
 {
   "name": "Lobby-Finder",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "prepared": "2026-09-27",
   "files": [
     {
       "path": ".env.example",
-      "sha256": "aa819e8cf3080413c5d61fa20f77da0973fb92e80d7c681d2441af7122ad1770"
+      "sha256": "f9295382d741e2070025cb581082edc0979039bacf24f0b490e9cc6b27c85833"
     },
     {
       "path": ".gitignore",
@@ -17,11 +17,11 @@
     },
     {
       "path": "package.json",
-      "sha256": "2b54eeb851095e966bdb4823e680a8f04ea8ced6d214aa3dddb7399ac7e5f31b"
+      "sha256": "8a05e6b578460b98d82fc9221ff50269b6729c03020080c570c849fb2a41917e"
     },
     {
       "path": "package-lock.json",
-      "sha256": "8b6b284f70aaa4a337a770dd3c939675945d8a2b31cb7b61d8d7d6df9b3afdcd"
+      "sha256": "220441d367c37d35f81592714f55a28572a0bac0c1e5c33afbbfb14360d8593b"
     },
     {
       "path": "tsconfig.json",
@@ -29,7 +29,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "b46ca89eeebb4e379cca5ee6ca66af976bb88e492703e388d23aeaaf4207ef00"
+      "sha256": "97dd88be2d63754888ad85702975b3ee85f0015bc7698dcc930596a467baf0fe"
     },
     {
       "path": "LICENSE",
@@ -37,7 +37,7 @@
     },
     {
       "path": "VERIFICATION.md",
-      "sha256": "e854789c96e32fef2c81853c2c408dbc33d699910129e87727181cb558afccd1"
+      "sha256": "160fd866faf183dd71a5750d8d63fcca3c4d0eda2e0d1e45c429569712f3230a"
     },
     {
       "path": "Dockerfile",
@@ -53,7 +53,7 @@
     },
     {
       "path": "docs/README.md",
-      "sha256": "f18b325b3b92ad46a8e8af470954bc1e0fc9d54a0a647baf4e872a1a7634d464"
+      "sha256": "7140b676ad346c9c48f7cbc82fce174750047d0ed48fdb6a8eacfd677461f701"
     },
     {
       "path": "src/functions/README.md",
@@ -65,7 +65,7 @@
     },
     {
       "path": "docs/OWNER-SETUP.md",
-      "sha256": "4ceac3d4f43304189bfcfa881379641107467741866764b119f6e8b8e71b6515"
+      "sha256": "389be580961a7e7414ec0eff5b0f0ba5d916c43730201783631168b21de4eb6d"
     },
     {
       "path": "docs/DATA-HANDLING.md",
@@ -114,6 +114,38 @@
     {
       "path": "tests/lobby.test.mjs",
       "sha256": "e82c52e7603c9a3c51bb86fe16f4c38527fef62e801853a7bcf44bb588d54bad"
+    },
+    {
+      "path": "scripts/owner-tools.mjs",
+      "sha256": "4e185c9c12cbfe2abe67107c4525f8f0a9619f763ffe9d31017011a271588fd0"
+    },
+    {
+      "path": "scripts/setup.mjs",
+      "sha256": "122053984a40c4122107cd1c8631a96916440b5f80f64b507e3912ef2e3e398a"
+    },
+    {
+      "path": "scripts/invite.mjs",
+      "sha256": "4b5bbdcb89b025b84bca27a97b125e6321f8af55ae8b0b275c7ffe89165402c5"
+    },
+    {
+      "path": "setup.cmd",
+      "sha256": "eb855b582b5ca3ec2c70fe3282548383e415a805b09bcb982f0f8adf239f8467"
+    },
+    {
+      "path": "start.cmd",
+      "sha256": "c8632de71c8467f4aaac863fb5e193ea36969977eb3a3dda28158f6cc7c28464"
+    },
+    {
+      "path": "docs/OWN-COPY.md",
+      "sha256": "fc3367c52694b5bc6902b97b98ddb509af72149a27efcf25acf997cf00bfabb7"
+    },
+    {
+      "path": "docs/SHARE-MESSAGE.md",
+      "sha256": "06b1ad31353b1ee17f67308b5b0dd7c75438d6ea9b54560e8e086e82828a706f"
+    },
+    {
+      "path": "tests/owner-tools.test.mjs",
+      "sha256": "e90f5c4ac554873de602e456590049cb68edd2b716200936b3a844a9bbc81b55"
     }
   ]
 }
