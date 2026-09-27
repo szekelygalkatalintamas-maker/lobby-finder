@@ -1,0 +1,29 @@
+{
+    "name": "lobby-finder",
+    "version": "0.2.0",
+    "private": true,
+    "description": "A configurable Discord lobby board for gaming communities",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/szekelygalkatalintamas-maker/lobby-finder.git"
+    },
+    "type": "module",
+    "engines": {
+        "node": ">=24.17.0"
+    },
+    "scripts": {
+        "build": "tsc -p tsconfig.json",
+        "typecheck": "tsc -p tsconfig.json --noEmit",
+        "check-config": "node --env-file-if-exists=.env dist/check-config.js",
+        "start": "node --env-file-if-exists=.env dist/index.js",
+        "test": "npm run build && node --test tests/*.test.mjs"
+    },
+    "dependencies": {
+        "discord.js": "14.27.0"
+    },
+    "devDependencies": {
+        "@types/node": "24.0.0",
+        "typescript": "5.9.3"
+    }
+}

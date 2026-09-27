@@ -1,0 +1,119 @@
+{
+  "name": "Lobby-Finder",
+  "version": "0.2.0",
+  "prepared": "2026-09-27",
+  "files": [
+    {
+      "path": ".env.example",
+      "sha256": "aa819e8cf3080413c5d61fa20f77da0973fb92e80d7c681d2441af7122ad1770"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "ce44f271b089fb0cc0ae6d6f32724695e9138348dfa2c3ea610cd8b4fb18d9d1"
+    },
+    {
+      "path": ".dockerignore",
+      "sha256": "e05d4c69edafbd8192d8b9d139f66de0a611e8769d7f9791024e2514b936980f"
+    },
+    {
+      "path": "package.json",
+      "sha256": "2b54eeb851095e966bdb4823e680a8f04ea8ced6d214aa3dddb7399ac7e5f31b"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "8b6b284f70aaa4a337a770dd3c939675945d8a2b31cb7b61d8d7d6df9b3afdcd"
+    },
+    {
+      "path": "tsconfig.json",
+      "sha256": "81d2bc5ac37f708e258fd0823c9c6210ac6b35704ff98104294e58b655e2bf24"
+    },
+    {
+      "path": "README.md",
+      "sha256": "b46ca89eeebb4e379cca5ee6ca66af976bb88e492703e388d23aeaaf4207ef00"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "1d6c0b84c5129fbceee0d6f5c8c191b0e4b49ae4a5a29c63d368633de49bbe0d"
+    },
+    {
+      "path": "VERIFICATION.md",
+      "sha256": "e854789c96e32fef2c81853c2c408dbc33d699910129e87727181cb558afccd1"
+    },
+    {
+      "path": "Dockerfile",
+      "sha256": "4b6d6b8f853374d4d0284c244032fb0d8520b7ff5323d7efd59d5a813504ddbe"
+    },
+    {
+      "path": "compose.yaml",
+      "sha256": "50dffda7fd21840b18b2f3dd3e25f7d6e8680baabb8623fb875374a3670c20c2"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha256": "ff01f5cb948d5a8b917041178a20a492445e466e518480c0d206a23f9249533d"
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "f18b325b3b92ad46a8e8af470954bc1e0fc9d54a0a647baf4e872a1a7634d464"
+    },
+    {
+      "path": "src/functions/README.md",
+      "sha256": "31a061927c8b76c1df13c0b84113a1174537ca96cddf6280695446f17821bff8"
+    },
+    {
+      "path": "tests/README.md",
+      "sha256": "c67b78ada8b455405433ffe6a201c5a89eef407a0bab3309a2fe009b84ac9ab7"
+    },
+    {
+      "path": "docs/OWNER-SETUP.md",
+      "sha256": "4ceac3d4f43304189bfcfa881379641107467741866764b119f6e8b8e71b6515"
+    },
+    {
+      "path": "docs/DATA-HANDLING.md",
+      "sha256": "f721cf7b4bc4ce8a672de993b1a0c59663486349397fe33986f000ff804a07c2"
+    },
+    {
+      "path": "src/index.ts",
+      "sha256": "21246e7242806c7879b251180b3ae11d16ce9a60256a01bcc907e35fff4b4d89"
+    },
+    {
+      "path": "src/config.ts",
+      "sha256": "6c7b12dd12ac2073b0fdfd2db1b61671a0448ead24b491a189cd06bfe0152ea5"
+    },
+    {
+      "path": "src/check-config.ts",
+      "sha256": "e8edc66194ea70eb1d40dabb4fd0fb9e7820365300fea38e48f878537bacf1b3"
+    },
+    {
+      "path": "src/preflight.ts",
+      "sha256": "d75ecc0a8e43c64a35bb691aa242926071d4c1aa0e6318c68e28c8d267b0f802"
+    },
+    {
+      "path": "src/commands.ts",
+      "sha256": "376e73531d2676f88265d499c16c8b4f964322c50bfdde71d4c76e58b4e6fce9"
+    },
+    {
+      "path": "src/store.ts",
+      "sha256": "7d0e33c98ce5f9c18ecb13987fc614683ced6a2480a1f15276c18ccc4b4b8b12"
+    },
+    {
+      "path": "src/setup.ts",
+      "sha256": "c79d3d7532b28e623ef015999e9a2a6912fc33f272ed3570ae65957b660b0422"
+    },
+    {
+      "path": "src/registry.ts",
+      "sha256": "30560434547ee8e7ea7b9994a3379daa35cf732367291913bbfb83d76cf9544b"
+    },
+    {
+      "path": "src/functions/lfg.ts",
+      "sha256": "170e4c931ac3560d53555f5f7fab200994be76a73ca3df55108408aeb2c56742"
+    },
+    {
+      "path": "src/functions/lfgTranslations.ts",
+      "sha256": "108e14b4a240143e4e25d39a5132367b5ffccbfa419a066e61ef7e5a7f5b9f02"
+    },
+    {
+      "path": "tests/lobby.test.mjs",
+      "sha256": "e82c52e7603c9a3c51bb86fe16f4c38527fef62e801853a7bcf44bb588d54bad"
+    }
+  ]
+}

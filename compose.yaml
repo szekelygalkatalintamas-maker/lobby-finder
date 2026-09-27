@@ -1,0 +1,11 @@
+services:
+    lobby-finder:
+        build: .
+        restart: unless-stopped
+        env_file: .env
+        environment:
+            DATA_DIR: /app/data
+        volumes:
+            - lobby-data:/app/data
+volumes:
+    lobby-data:
